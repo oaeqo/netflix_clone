@@ -1,0 +1,19 @@
+.faq{
+  @include component_size;
+  height: 100vh;
+}
+
+.faq-list{
+button {
+  width: 90%;
+  color: #fff;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+  font-size: $font-size-medium;
+}
+}
+
+
+li{
+  list-style: none;
+}
