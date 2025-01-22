@@ -1,23 +1,38 @@
 .faq{
   @include component_size;
   height: 100vh;
+  h2{
+    margin: 20px auto;
+  }
 }
 
 .faq-list{
   li{
   margin: 5px;
 button {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   text-align: left;
   width: 100%;
   color: #fff;
   padding: 20px;
   background-color: rgba(61, 59, 59, 0.7);
   font-size: $font-size-medium;
+  transition: 0.2s;
+  &:hover{
+    background-color: rgba(121, 116, 116, 0.7);
+  }
 }
 p{
-  padding: 20px;
   font-size: $font-size-medium;
+  height: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+p.open{
+  height: 150px;
+  padding: 10px 0;
+  opacity: 1;
 }
 }
 }
