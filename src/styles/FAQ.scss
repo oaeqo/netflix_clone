@@ -4,15 +4,23 @@
 }
 
 .faq-list{
+  li{
+  margin: 5px;
 button {
-  width: 90%;
+  display: block;
+  text-align: left;
+  width: 100%;
   color: #fff;
   padding: 20px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(61, 59, 59, 0.7);
+  font-size: $font-size-medium;
+}
+p{
+  padding: 20px;
   font-size: $font-size-medium;
 }
 }
-
+}
 
 li{
   list-style: none;
