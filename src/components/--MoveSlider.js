@@ -49,7 +49,7 @@ const MoveSlider = () => {
   };
 
   function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const { onClick } = props;
     return ( 
       <div
       className="slick_next"

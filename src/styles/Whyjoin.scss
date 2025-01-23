@@ -12,11 +12,11 @@
       flex-wrap: wrap;
     }
     li{
-      width: 25%;
-      height: 400px;
-      background-image: linear-gradient(113deg, rgba(16,20,57,0.9248074229691877) 5%, rgba(10,10,74,1) 26%, rgba(48,1,75,1) 99%);
-      border-radius: 10px;
-      padding: 20px 35px;
+      padding: 20px;
+      border-radius: 20px;
+      width: 30%;
+      height: 300px;
+      background-image: linear-gradient(164deg, rgba(2,0,36,1) 0%, rgba(6,6,69,0.6138830532212884) 0%, rgba(6,6,69,1) 53%, rgba(80,16,42,1) 100%);
       position: relative;
       @include responsive($breakpoint-medium){
         width: 45%;
