@@ -49,7 +49,7 @@
       font-weight: bolder;
       color: #000;
       // --webkit-text-stroke: 2px #fff;
-      // --webkit-text-fill-color: #000; => 호환 잘 되지 않을 수 있음
+      // --webkit-text-fill-color: #000; => 익스플로어, 사파리에서 호환 잘 되지 않을 수 있음
       text-shadow: -2px -2px 0 #fff, //왼쪽 위
       2px -2px 0 #fff, //오른쪽 위
       2px 2px 0 #fff, //왼쪽 아래
